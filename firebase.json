@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "potsecskillstraining",
+          "appId": "1:228175878292:android:e544de0711ed1e8698fc81",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "potsecskillstraining",
+          "configurations": {
+            "android": "1:228175878292:android:e544de0711ed1e8698fc81",
+            "ios": "1:228175878292:ios:abcaf6e3571247f398fc81",
+            "macos": "1:228175878292:ios:abcaf6e3571247f398fc81",
+            "web": "1:228175878292:web:938895c54060dd7b98fc81",
+            "windows": "1:228175878292:web:a9a5f51bed86d25698fc81"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

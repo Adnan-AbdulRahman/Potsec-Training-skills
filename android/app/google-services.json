@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "228175878292",
+    "project_id": "potsecskillstraining",
+    "storage_bucket": "potsecskillstraining.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228175878292:android:e544de0711ed1e8698fc81",
+        "android_client_info": {
+          "package_name": "com.potsecskillstraining.potsecskillstraining"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAei1igcEiZJza_wbwTauUSLh0pTvjVVsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
